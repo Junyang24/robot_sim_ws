@@ -1,0 +1,27 @@
+\subsubsection usage Usage
+\verbatim
+<node name="geometric_method_grasp" pkg="robot_sim" type="geometric_method_grasp">
+  <param name="obj_name" type="str" value="box" />
+  <param name="obj_x" type="double" value="-0.25" />
+  <param name="obj_y" type="double" value="0.75" />
+  <param name="obj_z" type="double" value="0.98" />
+  <param name="obj_roll" type="double" value="0.0" />
+  <param name="obj_pitch" type="double" value="0.0" />
+  <param name="obj_yaw" type="double" value="0.0" />
+  <param name="eelink_x" type="double" value="-0.11" />
+  <param name="eelink_y" type="double" value="0.67" />
+  <param name="eelink_z" type="double" value="1.1" />
+  <param name="eelink_roll" type="double" value="0.0" />
+  <param name="eelink_pitch" type="double" value="0.0" />
+  <param name="eelink_yaw" type="double" value="0.0" />
+  <param name="grasp_angle" type="double" value="0.8" />
+  <param name="enable_move_and_grasp_flag" type="bool" value="False" />
+  <param name="enable_move_obj_flag" type="bool" value="False" />
+  <param name="reset_obj_pos_flag" type="bool" value="False" />
+  <param name="enable_moveit_flag" type="bool" value="False" />
+  <param name="enable_grasp_flag" type="bool" value="False" />
+  <param name="save_image_flag" type="bool" value="False" />
+  <param name="save_mask_flag" type="bool" value="False" />
+</node>
+\endverbatim
+

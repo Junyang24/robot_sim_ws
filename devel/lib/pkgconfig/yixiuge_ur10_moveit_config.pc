@@ -1,0 +1,8 @@
+prefix=/home/lijunsunny/Documents/robot_sim_ws/devel
+
+Name: yixiuge_ur10_moveit_config
+Description: Description of yixiuge_ur10_moveit_config
+Version: 1.2.7
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

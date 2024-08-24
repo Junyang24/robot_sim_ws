@@ -1,0 +1,2 @@
+set(easy_handeye_MESSAGE_FILES "/home/lijunsunny/Documents/robot_sim_ws/src/easy_handeye/easy_handeye/msg/HandeyeCalibration.msg;/home/lijunsunny/Documents/robot_sim_ws/src/easy_handeye/easy_handeye/msg/SampleList.msg")
+set(easy_handeye_SERVICE_FILES "/home/lijunsunny/Documents/robot_sim_ws/src/easy_handeye/easy_handeye/srv/ComputeCalibration.srv;/home/lijunsunny/Documents/robot_sim_ws/src/easy_handeye/easy_handeye/srv/RemoveSample.srv;/home/lijunsunny/Documents/robot_sim_ws/src/easy_handeye/easy_handeye/srv/TakeSample.srv")

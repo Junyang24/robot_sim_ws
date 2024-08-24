@@ -1,0 +1,8 @@
+\subsubsection usage Usage
+\verbatim
+<node name="data_collection" pkg="robot_sim" type="data_collection">
+  <param name="next_pose" type="bool" value="False" />
+  <param name="save_data" type="bool" value="False" />
+</node>
+\endverbatim
+

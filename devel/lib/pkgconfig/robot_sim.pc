@@ -1,0 +1,8 @@
+prefix=/home/lijunsunny/Documents/robot_sim_ws/devel
+
+Name: robot_sim
+Description: Description of robot_sim
+Version: 0.0.0
+Cflags: -I/home/lijunsunny/Documents/robot_sim_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: dynamic_reconfigure roscpp serial std_msgs sensor_msgs geometry_msgs nav_msgs actionlib move_base_msgs control_msgs trajectory_msgs interactive_markers moveit_core moveit_visual_tools moveit_ros_perception moveit_ros_planning_interface pluginlib actionlib_msgs

@@ -1,0 +1,26 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~obj_name" : \b [str] obj_name min: , default: box, max: 
+- \b "~obj_x" : \b [double] obj_x min: -0.75, default: -0.25, max: 0.25
+- \b "~obj_y" : \b [double] obj_y min: 0.25, default: 0.75, max: 1.25
+- \b "~obj_z" : \b [double] obj_z min: 0.0, default: 0.98, max: 1.5
+- \b "~obj_roll" : \b [double] obj_roll min: -180.0, default: 0.0, max: 180.0
+- \b "~obj_pitch" : \b [double] obj_pitch min: -180.0, default: 0.0, max: 180.0
+- \b "~obj_yaw" : \b [double] obj_yaw min: -180.0, default: 0.0, max: 180.0
+- \b "~eelink_x" : \b [double] eelink_x min: -0.75, default: -0.11, max: 0.75
+- \b "~eelink_y" : \b [double] eelink_y min: 0.0, default: 0.67, max: 1.5
+- \b "~eelink_z" : \b [double] eelink_z min: 1.0, default: 1.1, max: 1.7
+- \b "~eelink_roll" : \b [double] eelink_roll min: -180.0, default: 0.0, max: 180.0
+- \b "~eelink_pitch" : \b [double] eelink_pitch min: -180.0, default: 0.0, max: 180.0
+- \b "~eelink_yaw" : \b [double] eelink_yaw min: -180.0, default: 0.0, max: 180.0
+- \b "~grasp_angle" : \b [double] grasp_angle min: 0.0, default: 0.8, max: 0.8
+- \b "~enable_move_and_grasp_flag" : \b [bool] whether move and grasp or not min: False, default: False, max: True
+- \b "~enable_move_obj_flag" : \b [bool] whether move obj or not min: False, default: False, max: True
+- \b "~reset_obj_pos_flag" : \b [bool] rest obj pos or not min: False, default: False, max: True
+- \b "~enable_moveit_flag" : \b [bool] whether move ur5 or not min: False, default: False, max: True
+- \b "~enable_grasp_flag" : \b [bool] whether grasp or not min: False, default: False, max: True
+- \b "~save_image_flag" : \b [bool] whether save_image_flag or not min: False, default: False, max: True
+- \b "~save_mask_flag" : \b [bool] whether save_mask_flag or not min: False, default: False, max: True
+

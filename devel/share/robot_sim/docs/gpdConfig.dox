@@ -1,0 +1,8 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~add_pi" : \b [bool] add_pi min: False, default: False, max: True
+- \b "~good_grasp" : \b [bool] whether good_grasp or not min: False, default: False, max: True
+- \b "~bad_grasp" : \b [bool] whether bad_grasp or not min: False, default: False, max: True
+

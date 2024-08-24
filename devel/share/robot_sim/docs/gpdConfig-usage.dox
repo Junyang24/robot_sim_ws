@@ -1,0 +1,9 @@
+\subsubsection usage Usage
+\verbatim
+<node name="GPD_method_grasp" pkg="robot_sim" type="GPD_method_grasp">
+  <param name="add_pi" type="bool" value="False" />
+  <param name="good_grasp" type="bool" value="False" />
+  <param name="bad_grasp" type="bool" value="False" />
+</node>
+\endverbatim
+

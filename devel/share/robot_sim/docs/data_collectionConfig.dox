@@ -1,0 +1,7 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~next_pose" : \b [bool] next_pose min: False, default: False, max: True
+- \b "~save_data" : \b [bool] save_data min: False, default: False, max: True
+
